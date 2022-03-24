@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.input {
+  height: 4rem;
+  border: none;
+  padding-left: 4rem;
+  outline: none;
+  font-size: 2rem;
+  color: rgb(84, 84, 87);
+  box-shadow: 0 2px 3px rgb(228, 228, 228);
+}
+
+.container input::placeholder {
+  color: rgb(227, 230, 235);
+}
+
+.inputIcon {
+  position: absolute;
+  top: 1rem;
+  left: 0.5rem;
+  font-size: 2rem;
+  color: rgb(227, 230, 235);
+}
+
+.inputIcon:active {
+  color: rgb(97, 212, 97);
+}

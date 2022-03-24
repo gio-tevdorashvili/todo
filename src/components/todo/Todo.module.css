@@ -1,0 +1,30 @@
+.todo {
+  display: flex;
+  align-items: center;
+  min-height: 4rem;
+  height: 100%;
+  gap: 1.6rem;
+  font-size: 2rem;
+  background-color: white;
+  color: rgb(84, 84, 87);
+  border-bottom: 1px solid rgb(228, 228, 228);
+  word-break: break-all;
+}
+
+.todoIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 2rem;
+  min-width: 2rem;
+  color: rgb(97, 212, 97);
+  border: 1px solid rgb(194, 236, 183);
+  border-radius: 50%;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  color: rgb(227, 230, 235);
+}
