@@ -12,7 +12,7 @@ const Input = () => {
   const handleClick = (e) => {
     dispatch({ type: 'TOGGLE' });
   };
-
+  console.log('dddd');
   const handleSubmit = (e) => {
     e.preventDefault();
 
