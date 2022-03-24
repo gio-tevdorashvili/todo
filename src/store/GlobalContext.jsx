@@ -29,6 +29,7 @@ const reducer = (state, action) => {
       inputValues: [...toggled],
       current: 'inputValues',
       allChecked: checkedAll,
+      leftToDo: checkedAll ? 0 : state.inputValues.length,
     };
   }
 
